@@ -6,6 +6,11 @@ public class $CLASS$
     [TestMethod]
     public void $MethodName$()
     {
+        // Arrange
         $END$
+
+        // Act
+
+        // Assert
     }
 }
