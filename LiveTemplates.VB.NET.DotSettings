@@ -1,0 +1,55 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Shortcut/@EntryValue">tm</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Description/@EntryValue">Boilerplate for an MSTest method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Text/@EntryValue">&lt;TestMethod&gt;&#xD;
+Public Sub $MethodName$()&#xD;
+    $END$&#xD;
+End Sub</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Scope/=563FBDE4F9481C44B4298CB3231C3B30/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Scope/=563FBDE4F9481C44B4298CB3231C3B30/Type/@EntryValue">InVBFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Scope/=563FBDE4F9481C44B4298CB3231C3B30/CustomProperties/=languageLevel/@EntryIndexedValue">Vb8</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Field/=MethodName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B20647E9D9BE4A449A8542E8B4EB6049/Field/=MethodName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Shortcut/@EntryValue">testclass</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Description/@EntryValue">Boilerplate for an MSTest class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Text/@EntryValue">Imports Microsoft.VisualStudio.TestTools.UnitTesting&#xD;
+&#xD;
+&lt;TestClass&gt;&#xD;
+Public Class $CLASS$&#xD;
+&#xD;
+    &lt;TestMethod&gt;&#xD;
+    Public Sub $MethodName$()&#xD;
+        $END$&#xD;
+    End Sub&#xD;
+End Class</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Scope/=563FBDE4F9481C44B4298CB3231C3B30/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Scope/=563FBDE4F9481C44B4298CB3231C3B30/Type/@EntryValue">InVBFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Scope/=563FBDE4F9481C44B4298CB3231C3B30/CustomProperties/=languageLevel/@EntryIndexedValue">Vb8</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Field/=CLASS/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Field/=MethodName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C6F3668D691C241A235C92E41BF9BA9/Field/=MethodName/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Shortcut/@EntryValue">ti</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Description/@EntryValue">Boilerplate for an MSTest TestInitialize</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Text/@EntryValue">&lt;TestInitialize&gt;&#xD;
+Public Sub $TestInitialize$()&#xD;
+    $END$&#xD;
+End Sub</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Scope/=563FBDE4F9481C44B4298CB3231C3B30/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Scope/=563FBDE4F9481C44B4298CB3231C3B30/Type/@EntryValue">InVBFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Scope/=563FBDE4F9481C44B4298CB3231C3B30/CustomProperties/=languageLevel/@EntryIndexedValue">Vb8</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Field/=TestInitialize/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=68290570ACC4BB468B7727C55AC27A8C/Field/=TestInitialize/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

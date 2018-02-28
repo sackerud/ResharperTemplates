@@ -1,0 +1,22 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Shortcut/@EntryValue">try</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Description/@EntryValue">Surround with try-catch</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Text/@EntryValue">Try&#xD;
+  $SELECTION$&#xD;
+Catch $ex$ As $Exception$&#xD;
+  $SELSTART$System.Console.WriteLine($ex$)&#xD;
+  Throw$SELEND$&#xD;
+End Try</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Mnemonic/@EntryValue">8</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Applicability/=Surround/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Scope/=563FBDE4F9481C44B4298CB3231C3B30/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Scope/=563FBDE4F9481C44B4298CB3231C3B30/Type/@EntryValue">InVBFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Scope/=563FBDE4F9481C44B4298CB3231C3B30/CustomProperties/=languageLevel/@EntryIndexedValue">Vb8</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Field/=Exception/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Field/=Exception/Expression/@EntryValue">constant("Exception")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Field/=Exception/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Field/=ex/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBBF0D438A909446B2B8CB5E62216340/Field/=ex/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
