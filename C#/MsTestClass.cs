@@ -1,16 +1,20 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-[TestClass]
-public class $CLASS$
+namespace $NameSpace$
 {
-    [TestMethod]
-    public void $MethodName$()
+
+    [TestClass]
+    public class $CLASS$
     {
-        // Arrange
-        $END$
+        [TestMethod]
+        public void $MethodName$()
+        {
+            // Arrange
+            $END$
 
-        // Act
+            // Act
 
-        // Assert
+            // Assert
+        }
     }
 }
